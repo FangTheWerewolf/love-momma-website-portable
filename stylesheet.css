@@ -14,7 +14,6 @@ header {
 /* Below makes sure it looks pretty */
 body {
 margin: 0;
-overflow: hidden;
 }
 
 
@@ -40,4 +39,9 @@ overflow: hidden;
 		transform: translate(150px, 150px);
 	}
 
+}
+
+.bodyImages img {
+    width: 400px;
+    height: auto;
 }
