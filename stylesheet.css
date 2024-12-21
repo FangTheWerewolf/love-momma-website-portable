@@ -3,6 +3,7 @@ header img {
     max-height: 10%;
 }
 
+
 header {
     background-color: #F5F5DC;
     position: relative;
@@ -10,17 +11,19 @@ header {
     padding: 20px;
 }
 
+/* Below makes sure it looks pretty */
 body {
 margin: 0;
 overflow: hidden;
 }
 
 .background {
+    position: fixed;
     top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("leavesbackground.webp");
+    background-image: url("css-pattern-by-magicpattern.png");
+    background-size: cover;
     background-position: center;
     z-index: -1;
 }
